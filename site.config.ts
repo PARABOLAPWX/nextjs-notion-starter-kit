@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'MY blog',
   domain: 'https://chemical-tote-c1f.notion.site/Halfrose-Home-c24f95ab00ac405a819b89a09285a916',
-  author: 'Travis Fischer',
+  author: 'HalfRose',
 
   // open graph metadata (optional)
   description: 'web',
@@ -49,16 +49,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  //navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: '752b0f1070f5426e95a549bcd1971dfa'
-    },
-    {
-      title: 'Contact',
-      pageId: 'bba2770aa69b44bdbdeb432ecc6d2f9a'
-    }
-  ]
+navigationStyle: 'default'
+//   navigationStyle: 'custom',
+//   navigationLinks: [
+//     {
+//       title: 'About',
+//       pageId: '752b0f1070f5426e95a549bcd1971dfa'
+//     },
+//     {
+//       title: 'Contact',
+//       pageId: 'bba2770aa69b44bdbdeb432ecc6d2f9a'
+//     }
+//   ]
 })
